@@ -4,7 +4,7 @@ localStorage.lastCheckup = Date.now()
 localStorage.checkupResult = 0
 
 document.getElementById("key").onclick = () => {
-    open("/tab.html", "_blank")
+    open("tab.html", "_blank")
 }
 
 let finished = false
